@@ -1,13 +1,5 @@
-# Message-encryption-system
-Its a simple encryption system, that ensures privacy. Since all of the popular messaging apps dont have end to end encryption anymore.
-
-
-markdown
-
-
 # 🔐 Substitution Cipher Tool
-
-A sophisticated Python-based encryption/decryption utility that uses custom Unicode character substitution for secure message encoding and decoding.
+Its a simple encryption system, that ensures privacy. Since all of the popular messaging apps dont have end to end encryption anymore.
 
 ## ✨ Features
 
