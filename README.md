@@ -34,37 +34,9 @@ Launch the interactive tool and follow the menu:
 ┌─ 🎯 OPTIONS ──────────────────────────────────────────────┐
 │ 🔒 [E] Encrypt Message                                    │
 │ 🔓 [D] Decrypt Message                                    │
-│ 📊 [T] Display Cipher Mapping Table                       │
-│ 🚪 [Q] Quit                                               │
+│                        │
+│                                               │
 └────────────────────────────────────────────────────────┘
-Examples
-Encrypt a message:
-
-
-
-➤ Enter your choice (E/D/T/Q): E
-✍️  Enter message to encrypt: hello world
-
-✅ Encrypted: ªÆ½½Á ÉÄ½´
-Decrypt a message:
-
-
-
-➤ Enter your choice (E/D/T/Q): D
-🔐 Enter message to decrypt: ªÆ½½Á ÉÄ½´
-
-✅ Decrypted: hello world
-🗝️ Cipher Mapping Table
-Alphabet Substitutions
-a	b	c	d	e	f	g	h	i	j
-¦	¬	¨	´	¶	·	º	ª	«	»
-k	l	m	n	o	p	q	r	s	t
-¼	½	¾	¿	Á	Â	Ã	Ä	Å	Æ
-u	v	w	x	y	z
-Ç	È	É	Ê	Ë	Ì
-Numeric Substitutions
-0	1	2	3	4	5	6	7	8	9
-Í	Î	Ï	Ð	Ñ	Ò	Ó	Ô	Õ	Ö
 📚 How It Works
 The cipher uses a substitution cipher approach where:
 
