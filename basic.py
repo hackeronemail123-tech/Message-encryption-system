@@ -25,16 +25,16 @@ cipher = {
     "x": "\"",
     "y": "<",
     "z": ">",
-    "0": "?",
-    "1": "/",
-    "2": "\\",
-    "3": ".",
-    "4": ",",
-    "5": "`",
-    "6": "~",
-    "7": "!",
-    "8": "@",
-    "9": "#",
+    "0": "¢",
+    "1": "£",
+    "2": "€",
+    "3": "¥",
+    "4": "§",
+    "5": "¶",
+    "6": "†",
+    "7": "‡",
+    "8": "•",
+    "9": "‰",
 }
 
 reverse_cipher = {v: k for k, v in cipher.items()}
@@ -44,7 +44,7 @@ while True:
     text = input("Enter text: ")
 
     if choice == "e":
-        result = "".join(cipher.get(char, char) for char in text)
+        result = "".join(cipher.get(char.lower(), char) for char in text)
     elif choice == "d":
         result = "".join(reverse_cipher.get(char, char) for char in text)
     else:
